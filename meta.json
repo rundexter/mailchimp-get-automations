@@ -2,25 +2,41 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
-    "inputs": [
-        //e.g.
-        /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-        */
-    ],
-    //Required. Outputs the module emits.
+    "inputs": [],
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "total_items",
+            "title":"Total Items"
+        },
+        {
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "status",
+            "title":"Status"
+        },
+        {
+            "id": "emails_sent",
+            "title":"Total Sent"
+        },
+        {
+            "id": "recipients",
+            "title":"Recipients"
+        },
+        {
+            "id": "tracking",
+            "title":"Tracking"
+        },
+        {
+            "id": "report_summary",
+            "title":"Summary"
+        },
+        {
+            "id": "_links",
+            "title":"Links"
         }
-      */
     ],
-    "title": "Mailchimp - Get Automations" /* Required.A display name for the module */
+    "icon": "dex-mailchimp",
+    "title": "Mailchimp - Get Automations"
 }
