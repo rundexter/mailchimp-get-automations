@@ -37,6 +37,9 @@
             "title":"Links"
         }
     ],
+    "providers": [{
+        "name": "mailchimp "
+    }],
     "icon": "dex-mailchimp",
     "title": "Mailchimp - Get Automations"
 }
